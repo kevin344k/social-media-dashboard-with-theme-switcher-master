@@ -1,0 +1,26 @@
+html {
+  font-size: 62.5%; /* Esto hace que 1rem = 10px */
+}
+
+#root {
+  margin: 0;
+  position: relative;
+  font-family: "Inter", sans-serif;
+  font-size: 1.4rem;
+  transition: background 0.4s ease-in-out;
+  background: white;
+}
+
+.split-light {
+  background: white;
+}
+
+.split {
+  background: linear-gradient(to bottom, var(--color-fm-Dark-Desaturated-Blue) 0px, var(--color-fm-Dark-Desaturated-Blue) 200px, var(--color-fm-Very-dark-Blue) 200px);
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}/*# sourceMappingURL=App.css.map */

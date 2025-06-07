@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import "tailwindcss";
+@import "tailwindcss";
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
+@theme{
+    /* Primary*/
+
+--color-fm-Lime-Green: hsl(163, 72%, 41%);
+--color-fm-Bright-Red: hsl(356, 69%, 56%);
+--color-fm-Facebook: hsl(208, 92%, 53%);
+--color-fm-Twitter: hsl(203, 89%, 53%);
+--background-image-custom-fm-Instagram: linear-gradient(180deg,hsl(37, 97%, 70%), hsl(329, 70%, 58%));
+--border-image-custom-fm-Instagram: linear-gradient(180deg,hsl(37, 97%, 70%), hsl(329, 70%, 58%));
+--color-fm-YouTube: hsl(348, 97%, 39%);
+--background-image-custom-fm-dark-mode: linear-gradient(180deg, var(--color-fm-Dark-Desaturated-Blue) 0px, var(--color-fm-Dark-Desaturated-Blue) 200px, var(--color-fm-Very-dark-Blue) 200px);
+
+/*Dark Theme*/
+
+--background-image-custom-fm-toggle-dark: linear-gradient(90deg,hsl(210, 78%, 56%),hsl(146, 68%, 55%));
+/* Light Theme*/
+
+--color-fm-toggle-light: hsl(230, 22%, 74%);
+
+/*Neutral*/
+/* Dark Theme
+*/
+--color-fm-Very-dark-Blue: hsl(230, 17%, 14%);
+--color-fm-Very-Dark-Blue: hsl(232, 19%, 15%);
+--color-fm-Dark-Desaturated-Blue: hsl(228, 28%, 20%);
+--color-fm-Desaturated-Blue: hsl(228, 34%, 66%);
+--color-fm-White: hsl(0, 0%, 100%);
+
+/* Light Theme*/
+
+--color-fm-White: hsl(0, 0%, 100%);
+--color-fm-Very-Pale-Blue: hsl(225, 100%, 98%);
+--color-fm-Light-Grayish-Blue : hsl(227, 47%, 96%);
+--color-fm-Dark-Grayish-Blue : hsl(228, 12%, 44%);
+--color-fm-Very-Dark-Blue: hsl(230, 17%, 14%);
+}

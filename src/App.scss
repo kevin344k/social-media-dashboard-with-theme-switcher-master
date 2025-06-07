@@ -16,6 +16,10 @@ $breakpoint-md: 768px; // tablet
 $breakpoint-lg: 1024px; // laptop
 $breakpoint-xl: 1280px; // desktop large
 
+*{
+  transition: 0.6s;
+}
+
 #root {
   margin: 0;
 
